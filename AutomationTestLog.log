@@ -1,0 +1,65 @@
+2019-08-04 01:08:01 Log.py[line:27] INFO ---------------执行api：用户注册------------------
+2019-08-04 01:08:01 Log.py[line:27] INFO ------------------执行用例：注册接口用例-----------------
+2019-08-04 01:08:01 Log.py[line:27] INFO ----------------------发送请求-----------------------
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求 url：http://127.0.0.1:8888/register
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求 方法：post
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求参数类型：json
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求数据：{'username': 'lily', 'password': 'lily1'}
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求头数据：None
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求cookies数据：None
+2019-08-04 01:08:01 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): 127.0.0.1:8888
+2019-08-04 01:08:01 connectionpool.py[line:393] DEBUG http://127.0.0.1:8888 "POST /register HTTP/1.1" 200 29
+2019-08-04 01:08:01 Log.py[line:27] INFO 响应结果：<Response [200]>
+2019-08-04 01:08:01 Log.py[line:27] INFO ------------------处理响应数据-------------------
+2019-08-04 01:08:01 Log.py[line:27] INFO 响应数据：{"msg":"success","code":"00"}
+2019-08-04 01:08:01 Log.py[line:27] INFO 存储请求数据：{'username': 'lily', 'password': '2ce472821b615043ab237bb192b6cb8c'}
+2019-08-04 01:08:01 Log.py[line:27] INFO 存储响应数据：{'code': '00'}
+2019-08-04 01:08:01 Log.py[line:27] INFO cookies：{}
+2019-08-04 01:08:01 Log.py[line:27] INFO 保存cookies成功，cookies：{}
+2019-08-04 01:08:01 Log.py[line:27] INFO 存储依赖数据执行结果：success
+2019-08-04 01:08:01 Log.py[line:27] INFO 断言结果error_key：{}
+2019-08-04 01:08:01 Log.py[line:27] INFO 断言结果 error_key：{}
+2019-08-04 01:08:01 Log.py[line:27] INFO case：注册成功 被忽略执行
+2019-08-04 01:08:01 Log.py[line:27] INFO ---------------执行api：用户登录------------------
+2019-08-04 01:08:01 Log.py[line:27] INFO ------------------执行用例：登录接口用例-----------------
+2019-08-04 01:08:01 Log.py[line:27] INFO 处理依赖数据完成：{'username': 'lily', 'password': 'lily1'}
+2019-08-04 01:08:01 Log.py[line:27] INFO ----------------------发送请求-----------------------
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求 url：http://127.0.0.1:8888/login
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求 方法：post
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求参数类型：json
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求数据：{'username': 'lily', 'password': 'lily1'}
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求头数据：None
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求cookies数据：None
+2019-08-04 01:08:01 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): 127.0.0.1:8888
+2019-08-04 01:08:01 connectionpool.py[line:393] DEBUG http://127.0.0.1:8888 "POST /login HTTP/1.1" 200 58
+2019-08-04 01:08:01 Log.py[line:27] INFO 响应结果：<Response [200]>
+2019-08-04 01:08:01 Log.py[line:27] INFO ------------------处理响应数据-------------------
+2019-08-04 01:08:01 Log.py[line:27] INFO 响应数据：{"msg":"success","code":"00","tok":"haha","uid":"lily111"}
+2019-08-04 01:08:01 Log.py[line:27] INFO 存储响应数据：{'tok': 'haha', 'uid': 'lily111'}
+2019-08-04 01:08:01 Log.py[line:27] INFO cookies：{'login': 'true'}
+2019-08-04 01:08:01 Log.py[line:27] INFO 保存cookies成功，cookies：{'login': 'true'}
+2019-08-04 01:08:01 Log.py[line:27] INFO 存储依赖数据执行结果：success
+2019-08-04 01:08:01 Log.py[line:27] INFO 断言结果error_key：{}
+2019-08-04 01:08:01 Log.py[line:27] INFO 断言结果 error_key：{}
+2019-08-04 01:08:01 Log.py[line:27] INFO case：登录成功 被忽略执行
+2019-08-04 01:08:01 Log.py[line:27] INFO ---------------执行api：查询博文------------------
+2019-08-04 01:08:01 Log.py[line:27] INFO ------------------执行用例：查询博文用例-----------------
+2019-08-04 01:08:01 Log.py[line:27] INFO ----------------------发送请求-----------------------
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求 url：http://127.0.0.1:8888/pd
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求 方法：get
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求参数类型：json
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求数据：{'username': 'lily', 'password': 'lily1'}
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求头数据：None
+2019-08-04 01:08:01 Log.py[line:27] INFO 请求cookies数据：{'login': 'true'}
+2019-08-04 01:08:01 connectionpool.py[line:205] DEBUG Starting new HTTP connection (1): 127.0.0.1:8888
+2019-08-04 01:08:01 connectionpool.py[line:393] DEBUG http://127.0.0.1:8888 "GET /pd HTTP/1.1" 200 29
+2019-08-04 01:08:01 Log.py[line:27] INFO 响应结果：<Response [200]>
+2019-08-04 01:08:01 Log.py[line:27] INFO ------------------处理响应数据-------------------
+2019-08-04 01:08:01 Log.py[line:27] INFO 响应数据：{"msg":"success","code":"00"}
+2019-08-04 01:08:01 Log.py[line:27] INFO 断言结果error_key：{}
+2019-08-04 01:08:01 Log.py[line:27] INFO 断言结果 error_key：{}
+2019-08-04 01:08:01 Log.py[line:27] INFO case：查询成功 被忽略执行
+2019-08-04 01:08:01 Log.py[line:27] INFO api：查询博文 被忽略执行
+2019-08-04 01:08:01 Log.py[line:27] INFO -------------------生成报告--------------------
+2019-08-04 01:08:05 Log.py[line:27] INFO -------------------发送邮件--------------------
+2019-08-04 01:08:09 Log.py[line:27] INFO 邮件发送成功
